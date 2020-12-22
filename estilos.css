@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*************header********************/
+#banner{
+    width: 100%;
+    background-image: url(curtido.jpg);
+    background-attachment: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    -webkit-transition: background-color .7s;
+}
+nav{
+    display: table;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    -webkit-transition: margin-left .5s;
+}
+ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+ul li{
+    float:left;
+    margin: 10px;
+    padding: 2px;
+}
+ul a{
+    color: #833a09;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul a:hover{
+    background: rgba(210, 105, 30, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+img#logo{
+    width: 500px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    background-color: rgba(153, 205, 50, 0);
+    -webkit-transition: width .7s, heigth .7s, margin-right .7s, margin-top 0.7s;
+
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+    background: #ee9254;
+    padding: 30px;
+    height: 5px;
+    border-radius: 40px;
+}
+.buscar_texto{
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(240, 210, 154);
+    font-size: 20px;
+    float:left;
+    line-height: 50px;
+    transition: 0.3s;
+    
+}
+.buscar .fas{
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 99, 71, 0);
+    color: rgb(248, 198, 132);
+    font-size: 2rem;
+    text-align: center;
+    -webkit-text-stroke: 1.5px rgb(87, 84, 84);
+}
+#body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: ivory;
+}
+nav .btn-menu{
+    display: none !important;
+    color: #833a09;
+    text-emphasis: none;
+    font-size: 2em;
+    
+}
+
+/**********cuerpo imagen****************/
+.aguayo{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 40px;
+    width: 520px;
+    height: 340px;
+    background-image: url(cueroaguayo.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+    color: white;
+    transition: 0.6s;
+    border: 2px solid #333;
+    box-shadow: -30px 30px 20px rgb(0, 0, 0,0.5);
+}
+.aguayo::before{
+    position: absolute;
+    top: 170px;
+    left: 270px;
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.5s;
+}
+.aguayo::after{
+    position: absolute;
+    top: 250px;
+    left: 270px;
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.5s;
+}
+.izk{
+    position: absolute;
+    left: 270px;
+    top: 180px;
+    transform: translateX(-450%);
+}
+.der{
+    position: absolute;
+    left: 270px;
+    top: 210px;
+    transform: translateX(230%);
+}
+.aguayo:hover .izk{
+    transform: translateX(0%);
+    transition: all .6s;
+}
+.aguayo:hover .der{
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+.aguayo:hover::before{
+    width: 125px;
+}
+.aguayo:hover::after{
+    width: 125px;
+}
+.aguayo:hover{
+    background-size: 105% 105%;
+}
+
+.bandolera{
+    background-image: url(bandolera1a.jpg);
+}
+.bolso{
+    background-image: url(bolsos.png);
+}
+.mochila{
+    background-image: url(mochila.png);
+
+}
+.maletin{
+    background-image: url(maletin.png);
+}
+.billetera{
+    background-image: url(billetera1.jpg);
+}
+.monedero{
+    background-image: url(monedero1.jpg);
+
+}
+.cinturon{
+    background-image: url(cinturon.png);
+}
+#boddy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/***************footer********************/
+.footer{
+    background-color:  #ee9254;
+    line-height: 3;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.footer div{
+    width: 15%;
+    float: left;
+}
+.logopie{
+    width: 80%;
+    height: auto;
+    
+}
+.log{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.social .fab {
+    font-size: 50px;
+    padding-right: 30px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    color: #833a09;
+}
+
+/********RESPONSIVE**********/
+@media screen and (min-width:480px){
+    .buscar:hover>.buscar_texto{
+        width: 190px;
+    }
+}
+@media screen and (max-width:1024px){
+    .buscar:hover>.buscar_texto{
+        width: 300px;
+        
+    }
+    
+    nav .btn-menu{
+        display: block !important;
+        float: left;
+    }
+    nav .enlaces{
+        position: fixed;
+        width: 100%;
+        max-width: 300px;
+        background: #ee9254;
+        top: 70px;
+        left: 0;
+        display: none;
+        padding: 10px 40px;
+        box-sizing: border-box;
+    }
+    .enlaces a{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        font-size: 15px;
+        
+    }
+    .enlaces::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid  #ee9254;
+        position: absolute;
+        top: -10px;
+        left: 50px;
+    }
+    nav .uno{
+        position: absolute;
+        top: 230px;
+    }
+    .enlaces.active{
+        display: block !important;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer h5{
+        width: 90%;
+        text-align: center;
+    }
+    .logopie{
+        width: 200%;
+        position: relative;
+        top: 100px;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .buscar_texto{
+        width: 500px;
+    }
+    
+}

@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*******************menu********************************************/
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #ee9254;
+    z-index: 100;
+}
+nav{
+    display: table;
+    margin: auto;
+    height: 40px;
+    
+}
+ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+ul li{
+    float:left;
+    margin: 15px;
+    
+}
+ul a{
+    color: #833a09;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul a:hover{
+    background: rgba(210, 105, 30, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+img#logo{
+    width: 130px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    
+
+}
+nav .btn-menu{
+    display: none !important;
+    color: #833a09;
+    text-emphasis: none;
+    font-size: 2em;
+}
+/*******************************cuerpo************************************/
+#boddy{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(232, 195, 146);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+#boddy > *{
+    text-decoration: none;
+}
+.titulo{
+    position: absolute;
+    color: #833a09;
+}
+.efecto{
+    position: relative;
+    margin: 50px;
+    width: 520px;
+    height: 340px;
+    background-size: 100% 100%;
+    border: 1px solid rgb(226, 170, 118);
+    box-shadow: -30px 30px 20px rgba(116, 69, 25, 0.3);
+    transition: 1s;
+}
+.nom{
+    padding: 310px 5px;
+    color: #ca6b2c;
+    
+}
+.bandolera01A{
+    background-image: url(imagenes/Aguayo/bandolera01A.png);
+}
+.bandolera01A:hover{
+    background-image: url(imagenes/Aguayo/bandolera01B.png);
+}
+.bandolera02A{
+    background-image: url(imagenes/Aguayo/bandolera02A.png);
+}
+.bandolera02A:hover{
+    background-image: url(imagenes/Aguayo/bandolera02B.png);
+}
+.bandolera03A{
+    background-image: url(imagenes/Aguayo/bandolera03A.png);
+}
+.bandolera03A:hover{
+    background-image: url(imagenes/Aguayo/bandolera03B.png);
+}
+.bandolera04A{
+    background-image: url(imagenes/Aguayo/bandolera04A.png);
+}
+.bandolera04A:hover{
+    background-size: 105% 105%;
+}
+.bandolera05A{
+    background-image: url(imagenes/Aguayo/bandolera05A.png);
+}
+.bandolera05A:hover{
+    background-size: 105% 105%;
+}
+.bandolera06A{
+    background-image: url(imagenes/Aguayo/bandolera06A.png);
+}
+.bandolera06A:hover{
+    background-size: 105% 105%;
+}.bandolera07A{
+    background-image: url(imagenes/Aguayo/bandolera07A.png);
+}
+.bandolera07A:hover{
+    background-size: 105% 105%;
+}
+.bandolera08A{
+    background-image: url(imagenes/Aguayo/bandolera08A.png);
+}
+.bandolera08A:hover{
+    background-size: 105% 105%;
+}
+.reg13A{
+    background-image: url(imagenes/Aguayo/reg13A.png);
+}
+.reg13A:hover{
+    background-image: url(imagenes/Aguayo/reg13B.png);
+}
+.bandoleraguayo1{
+    background-image: url(imagenes/Aguayo/bandoleraguayo1.png);
+}
+.bandoleraguayo1:hover{
+    background-size: 105% 105%;
+}
+.bille16A{
+    background-image: url(imagenes/Aguayo/bille16A.png);
+}
+.bille16A:hover{
+    background-image: url(imagenes/Aguayo/bille16B.png);
+}
+.bille17A{
+    background-image: url(imagenes/Aguayo/bille17A.png);
+}
+.bille17A:hover{
+    background-image: url(imagenes/Aguayo/bille17B.png);
+}
+.bille24A{
+    background-image: url(imagenes/Aguayo/bille24A.png);
+}
+.bille24A:hover{
+    background-image: url(imagenes/Aguayo/bille24B.png);
+}
+.bille27A{
+    background-image: url(imagenes/Aguayo/bille27A.png);
+}
+.bille27A:hover{
+    background-image: url(imagenes/Aguayo/bille27B.png);
+}
+.bille34A{
+    background-image: url(imagenes/Aguayo/bille34A.png);
+}
+.bille34A:hover{
+    background-image: url(imagenes/Aguayo/bille34B.png);
+}
+.bille38A{
+    background-image: url(imagenes/Aguayo/bille38A.png);
+}
+.bille38A:hover{
+    background-size: 105% 105%;
+}
+.bille39A{
+    background-image: url(imagenes/Aguayo/bille39A.png);
+}
+.bille39A:hover{
+    background-size: 105% 105%;
+}
+.bille40A{
+    background-image: url(imagenes/Aguayo/bille40A.png);
+}
+.bille40A:hover{
+    background-size: 105% 105%;
+}
+.bille41A{
+    background-image: url(imagenes/Aguayo/bille41A.png);
+}
+.bille41A:hover{
+    background-size: 105% 105%;
+}
+.bille42A{
+    background-image: url(imagenes/Aguayo/bille42A.png);
+}
+.bille42A:hover{
+    background-image: url(imagenes/Aguayo/bille42B.png);
+}
+.bille43A{
+    background-image: url(imagenes/Aguayo/bille43A.png);
+}
+.bille43A:hover{
+    background-image: url(imagenes/Aguayo/bille43B.png);
+}
+.bille44A{
+    background-image: url(imagenes/Aguayo/bille44A.png);
+}
+.bille44A:hover{
+    background-image: url(imagenes/Aguayo/bille44B.png);
+}
+.bille45A{
+    background-image: url(imagenes/Aguayo/bille45A.png);
+}
+.bille45A:hover{
+    background-image: url(imagenes/Aguayo/bille45B.png);
+}
+.bille46A{
+    background-image: url(imagenes/Aguayo/bille46A.png);
+}
+.bille46A:hover{
+    background-image: url(imagenes/Aguayo/bille46B.png);
+}
+.bille47A{
+    background-image: url(imagenes/Aguayo/bille47A.png);
+}
+.bille47A:hover{
+    background-size: 105% 105%;
+}
+.cartera01A{
+    background-image: url(imagenes/Aguayo/cartera01A.png);
+}
+.cartera01A:hover{
+    background-size: 105% 105%;
+}
+.cartera02A{
+    background-image: url(imagenes/Aguayo/cartera02A.png);
+}
+.cartera02A:hover{
+    background-size: 105% 105%;
+}
+.cartera03A{
+    background-image: url(imagenes/Aguayo/cartera03A.png);
+}
+.cartera03A:hover{
+    background-size: 105% 105%;
+}
+.cartera04A{
+    background-image: url(imagenes/Aguayo/cartera04A.png);
+}
+.cartera04A:hover{
+    background-size: 105% 105%;
+}
+.carterita01A{
+    background-image: url(imagenes/Aguayo/carterita01A.png);
+}
+.carterita01A:hover{
+    background-image: url(imagenes/Aguayo/carterita01B.png);
+}
+.carterita03A{
+    background-image: url(imagenes/Aguayo/carterita03A.png);
+}
+.carterita03A:hover{
+    background-size: 105% 105%;
+}
+.cartgra01A{
+    background-image: url(imagenes/Aguayo/cartgra01A.png);
+}
+.cartgra01A:hover{
+    background-size: 105% 105%;
+}
+.cartgra02A{
+    background-image: url(imagenes/Aguayo/cartgra02A.png);
+}
+.cartgra02A:hover{
+    background-size: 105% 105%;
+}
+.chavo01A{
+    background-image: url(imagenes/Aguayo/chavo01A.png);
+}
+.chavo01A:hover{
+    background-size: 105% 105%;
+}
+.chavo02A{
+    background-image: url(imagenes/Aguayo/chavo02A.png);
+}
+.chavo02A:hover{
+    background-size: 105% 105%;
+}
+.chavo03A{
+    background-image: url(imagenes/Aguayo/chavo03A.png);
+}
+.chavo03A:hover{
+    background-size: 105% 105%;
+}
+.chavo04A{
+    background-image: url(imagenes/Aguayo/chavo04A.png);
+}
+.chavo04A:hover{
+    background-size: 105% 105%;
+}
+.chavo05A{
+    background-image: url(imagenes/Aguayo/chavo05A.png);
+}
+.chavo05A:hover{
+    background-size: 105% 105%;
+}
+.chavo06A{
+    background-image: url(imagenes/Aguayo/chavo06A.png);
+}
+.chavo06A:hover{
+    background-size: 105% 105%;
+}
+.cint01A{
+    background-image: url(imagenes/Aguayo/cint01A.png);
+}
+.cint01A:hover{
+    background-image: url(imagenes/Aguayo/cint01B.png);
+}
+.funda01A{
+    background-image: url(imagenes/Aguayo/funda01A.png);
+}
+.funda01A:hover{
+    background-image: url(imagenes/Aguayo/funda01B.png);
+}
+.moch01A{
+    background-image: url(imagenes/Aguayo/moch01A.png);
+}
+.moch01A:hover{
+    background-size: 105% 105%;
+}
+.moch02A{
+    background-image: url(imagenes/Aguayo/moch02A.png);
+}
+.moch02A:hover{
+    background-size: 105% 105%;
+}
+.moch03A{
+    background-image: url(imagenes/Aguayo/moch03A.png);
+}
+.moch03A:hover{
+    background-image: url(imagenes/Aguayo/moch03B.png);
+}
+.moch16A{
+    background-image: url(imagenes/Aguayo/moch16A.png);
+}
+.moch16A:hover{
+    background-image: url(imagenes/Aguayo/moch16B.png);
+}
+.playero01A{
+    background-image: url(imagenes/Aguayo/playero01A.png);
+}
+.playero01A:hover{
+    background-size: 105% 105%;
+}
+.playero02A{
+    background-image: url(imagenes/Aguayo/playero02A.png);
+}
+.playero02A:hover{
+    background-size: 105% 105%;
+}
+.playero03A{
+    background-image: url(imagenes/Aguayo/playero03A.png);
+}
+.playero03A:hover{
+    background-size: 105% 105%;
+}
+.playero04A{
+    background-image: url(imagenes/Aguayo/playero04A.png);
+}
+.playero04A:hover{
+    background-size: 105% 105%;
+}
+.playero05A{
+    background-image: url(imagenes/Aguayo/playero05A.png);
+}
+.playero05A:hover{
+    background-size: 105% 105%;
+}
+.playero06A{
+    background-image: url(imagenes/Aguayo/playero06A.png);
+}
+.playero06A:hover{
+    background-size: 105% 105%;
+}
+.reg11A{
+    background-image: url(imagenes/Aguayo/reg11A.png);
+}
+.reg11A:hover{
+    background-size: 105% 105%;
+}
+.reg16A{
+    background-image: url(imagenes/Aguayo/reg16A.png);
+}
+.reg16A:hover{
+    background-size: 105% 105%;
+}
+.reg17A{
+    background-image: url(imagenes/Aguayo/reg17A.png);
+}
+.reg17A:hover{
+    background-size: 105% 105%;
+}
+/*******************footer**************************************/
+.footer{
+    background-color:  #ee9254;
+    line-height: 3;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.footer div{
+    width: 15%;
+    float: left;
+}
+.logopie{
+    width: 80%;
+    height: auto;
+    
+}
+.log{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.social .fab {
+    font-size: 50px;
+    padding-right: 30px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    color: #833a09;
+}
+/********RESPONSIVE**********/
+@media screen and (max-width:1024px){
+    nav .btn-menu{
+        display: block !important;
+        float: left;
+    }
+    nav .enlaces{
+        position: fixed;
+        width: 100%;
+        max-width: 300px;
+        background: #ee9254;
+        top: 70px;
+        left: 0;
+        display: none;
+        padding: 10px 40px;
+        box-sizing: border-box;
+    }
+    .enlaces a{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        font-size: 15px;
+        
+    }
+    .enlaces::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid  #ee9254;
+        position: absolute;
+        top: -10px;
+        left: 50px;
+    }
+    nav .uno{
+        position: absolute;
+        top: 230px;
+    }
+    .enlaces.active{
+        display: block !important;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer h5{
+        width: 90%;
+        text-align: center;
+    }
+    .logopie{
+        width: 200%;
+        position: relative;
+        top: 100px;
+    }
+}

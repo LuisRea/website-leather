@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*******************menu********************************************/
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #ee9254;
+    z-index: 100;
+}
+nav{
+    display: table;
+    margin: auto;
+    height: 40px;
+    
+}
+ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+ul li{
+    float:left;
+    margin: 15px;
+    
+}
+ul a{
+    color: #833a09;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul a:hover{
+    background: rgba(210, 105, 30, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+img#logo{
+    width: 130px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    
+
+}
+nav .btn-menu{
+    display: none !important;
+    color: #833a09;
+    text-emphasis: none;
+    font-size: 2em;
+}
+/*******************************cuerpo************************************/
+#boddy{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(232, 195, 146);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+#boddy > *{
+    text-decoration: none;
+}
+.titulo{
+    position: absolute;
+    color: #833a09;
+}
+.efecto{
+    position: relative;
+    margin: 50px;
+    width: 520px;
+    height: 340px;
+    background-size: 100% 100%;
+    border: 1px solid rgb(226, 170, 118);
+    box-shadow: -30px 30px 20px rgba(116, 69, 25, 0.3);
+    transition: 1s;
+}
+.nom{
+    padding: 310px 5px;
+    color: #ca6b2c;
+    
+}
+.reg01A{
+    background-image: url(imagenes/Regalos/reg01A.png);
+}
+.reg01A:hover{
+    background-size: 105% 105%;
+}
+.reg02A{
+    background-image: url(imagenes/Regalos/reg02A.png);
+}
+.reg02A:hover{
+    background-size: 105% 105%;
+}
+.reg03A{
+    background-image: url(imagenes/Regalos/reg03A.png);
+}
+.reg03A:hover{
+    background-size: 105% 105%;
+}
+.reg04A{
+    background-image: url(imagenes/Regalos/reg04A.png);
+}
+.reg04A:hover{
+    background-size: 105% 105%;
+}
+.reg05A{
+    background-image: url(imagenes/Regalos/reg05A.png);
+}
+.reg05A:hover{
+    background-size: 105% 105%;
+}
+.reg06A{
+    background-image: url(imagenes/Regalos/reg06A.png);
+}
+.reg06A:hover{
+    background-size: 105% 105%;
+}
+.reg07A{
+    background-image: url(imagenes/Regalos/reg07A.png);
+}
+.reg07A:hover{
+    background-size: 105% 105%;
+}
+.reg08A{
+    background-image: url(imagenes/Regalos/reg08A.png);
+}
+.reg08A:hover{
+    background-size: 105% 105%;
+}
+.reg09A{
+    background-image: url(imagenes/Regalos/reg09A.png);
+}
+.reg09A:hover{
+    background-size: 105% 105%;
+}
+.reg10A{
+    background-image: url(imagenes/Regalos/reg10A.png);
+}
+.reg10A:hover{
+    background-size: 105% 105%;
+}
+.reg11A{
+    background-image: url(imagenes/Regalos/reg11A.png);
+}
+.reg11A:hover{
+    background-size: 105% 105%;
+}
+.reg12A{
+    background-image: url(imagenes/Regalos/reg12A.png);
+}
+.reg12A:hover{
+    background-size: 105% 105%;
+}
+.reg13A{
+    background-image: url(imagenes/Regalos/reg13A.png);
+}
+.reg13A:hover{
+    background-image: url(imagenes/Regalos/reg13B.png);
+}
+.reg14A{
+    background-image: url(imagenes/Regalos/reg14A.png);
+}
+.reg14A:hover{
+    background-image: url(imagenes/Regalos/reg14B.png);
+}
+.reg15A{
+    background-image: url(imagenes/Regalos/reg15A.png);
+}
+.reg15A:hover{
+    background-size: 105% 105%;
+}
+.reg16A{
+    background-image: url(imagenes/Regalos/reg16A.png);
+}
+.reg16A:hover{
+    background-size: 105% 105%;
+}
+.reg17A{
+    background-image: url(imagenes/Regalos/reg17A.png);
+}
+.reg17A:hover{
+    background-size: 105% 105%;
+}
+/*******************footer**************************************/
+.footer{
+    background-color:  #ee9254;
+    line-height: 3;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.footer div{
+    width: 15%;
+    float: left;
+}
+.logopie{
+    width: 80%;
+    height: auto;
+    
+}
+.log{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.social .fab {
+    font-size: 50px;
+    padding-right: 30px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    color: #833a09;
+}
+/********RESPONSIVE**********/
+@media screen and (max-width:1024px){
+    nav .btn-menu{
+        display: block !important;
+        float: left;
+    }
+    nav .enlaces{
+        position: fixed;
+        width: 100%;
+        max-width: 300px;
+        background: #ee9254;
+        top: 70px;
+        left: 0;
+        display: none;
+        padding: 10px 40px;
+        box-sizing: border-box;
+    }
+    .enlaces a{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        font-size: 15px;
+        
+    }
+    .enlaces::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid  #ee9254;
+        position: absolute;
+        top: -10px;
+        left: 50px;
+    }
+    nav .uno{
+        position: absolute;
+        top: 230px;
+    }
+    .enlaces.active{
+        display: block !important;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer h5{
+        width: 90%;
+        text-align: center;
+    }
+    .logopie{
+        width: 200%;
+        position: relative;
+        top: 100px;
+    }
+}

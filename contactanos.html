@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="llama.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Contactanos</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body id="dody">
+    <header id="header">
+        <nav class="menu">
+            <a href="#" class="btn-menu" id="btn-menu"><i class="icono fas fa-bars"></i></a>
+            <ul class="enlaces" id="enlaces">
+                <a href="mujer.html"><li>MUJER</li></a>
+                <a href="hombre.html"><li>HOMBRE</li></a>
+                <a href="regalo.html"><li>REGALA</li></a>
+            </ul>
+            <a href="index.html"><img id="logo" src="grupo1.png"></a>
+            <ul class="enlaces uno" id="enlaces1">
+                <a href="ubicacion.html"><li>UBICACION</li></a>
+                <a href="#"><li>COMPRA</li></a>
+                <a href="index.html"><li>PRINCIPAL</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="boddy">
+        <link rel="stylesheet" href="whats.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="whats2.css">
+            <div class="nav-bottom">
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+                    <div class="popup-whatsapp fadeIn">
+                            <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                                <i class="material-icons icon-font-color">close</i>
+                                </button> 
+                                    <p>  <img src="secretary.png" width="50">  Hola, ¿en que podemos ayudarte? </p>
+                            </div>
+                            <div class="content-whatsapp -bottom">
+                                <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                                <button class="send-msPopup" id="send-btn" type="button">
+                                <i class="material-icons icon-font-color--black">send</i>
+                                </button>
+                            </div>
+                    </div>
+                        <button type="button" id="whats-openPopup" class="whatsapp-button">
+                            <div class="float" >
+                            <i class="fa fa-whatsapp my-float"></i></div>
+                        </button>
+                        <div class="circle-anime"></div>
+            </div>
+                    <script  src="script2.js"></script>
+        <div class="contenedor">
+            <form action="enviar.php" method="POST" class="form">
+                <div class="form-header">
+                    <h1 class="form-title">C<span>ontactanos</span></h1>
+                </div>
+                
+                <label for="nombre" class="form-label">Nombres:</label>
+                <input type="text" id="nombre" class="form-imput" name="nombre" required>
+                
+                <label for="direccion" class="form-label">Direccion:</label>
+                <input type="text" id="direccion" class="form-imput" name="direccion">
+                
+                <label for="correo" class="form-label">Correo Electronico:</label>
+                <input type="email" id="correo" class="form-imput" name="correo" required>
+                
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea id="mensaje" class="form-textarea" name="mensaje" required></textarea>
+                
+                <input type="submit" class="btn-submit" value="Enviar Consulta">
+                <div class="contact">
+                    <h4>Mas Informacion</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Calle Bartolina Sisa 1105</li>
+                        <li><i class="fas fa-phone"></i>+591 67127161</li>
+                        <li><i class="fas fa-envelope"></i>luisalbet2@gmail.com</li>
+                    </ul>
+                    <p>Tambien puedes contactarnos por el link de Whatsapp, que no tardaremos en enviarte una respuesta mediante correo o una llamada.</p>
+                    <br>
+                    
+                    <h3>Leather Crafts Bolivia</h3>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    
+</body>
+<script src="scriptB.js"></script>
+</html>

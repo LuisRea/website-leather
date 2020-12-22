@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*******************menu********************************************/
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #ee9254;
+    z-index: 100;
+}
+nav{
+    display: table;
+    margin: auto;
+    height: 40px;
+    
+}
+ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+ul li{
+    float:left;
+    margin: 15px;
+    
+}
+ul a{
+    color: #833a09;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul a:hover{
+    background: rgba(210, 105, 30, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+img#logo{
+    width: 130px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    
+
+}
+nav .btn-menu{
+    display: none !important;
+    color: #833a09;
+    text-emphasis: none;
+    font-size: 2em;
+}
+/*******************************cuerpo************************************/
+#boddy{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(232, 195, 146);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+#boddy > *{
+    text-decoration: none;
+}
+.titulo{
+    position: absolute;
+    color: #833a09;
+}
+.efecto{
+    position: relative;
+    margin: 50px;
+    width: 520px;
+    height: 340px;
+    background-size: 100% 100%;
+    border: 1px solid rgb(226, 170, 118);
+    box-shadow: -30px 30px 20px rgba(116, 69, 25, 0.3);
+    transition: 1s;
+}
+.nom{
+    padding: 310px 5px;
+    color: #ca6b2c;
+    
+}
+.bandolera01A{
+    background-image: url(imagenes/Mujer/bandolera01A.png);
+}
+.bandolera01A:hover{
+    background-image: url(imagenes/Mujer/bandolera01B.png);
+}
+.bandolera02A{
+    background-image: url(imagenes/Mujer/bandolera02A.png);
+}
+.bandolera02A:hover{
+    background-image: url(imagenes/Mujer/bandolera02B.png);
+}
+.bandolera03A{
+    background-image: url(imagenes/Mujer/bandolera03A.png);
+}
+.bandolera03A:hover{
+    background-image: url(imagenes/Mujer/bandolera03B.png);
+}
+.bandolera04A{
+    background-image: url(imagenes/Mujer/bandolera04A.png);
+}
+.bandolera04A:hover{
+    background-size: 105% 105%;
+}
+.bandolera05A{
+    background-image: url(imagenes/Mujer/bandolera05A.png);
+}
+.bandolera05A:hover{
+    background-size: 105% 105%;
+}
+.bandolera06A{
+    background-image: url(imagenes/Mujer/bandolera06A.png);
+}
+.bandolera06A:hover{
+    background-size: 105% 105%;
+}.bandolera07A{
+    background-image: url(imagenes/Mujer/bandolera07A.png);
+}
+.bandolera07A:hover{
+    background-size: 105% 105%;
+}
+.bandolera08A{
+    background-image: url(imagenes/Mujer/bandolera08A.png);
+}
+.bandolera08A:hover{
+    background-size: 105% 105%;
+}
+.bille04A{
+    background-image: url(imagenes/Mujer/bille04A.png);
+}
+.bille04A:hover{
+    background-image: url(imagenes/Mujer/bille04B.png);
+}
+.bille14A{
+    background-image: url(imagenes/Mujer/bille14A.png);
+}
+.bille14A:hover{
+    background-image: url(imagenes/Mujer/bille14B.png);
+}
+.bille18A{
+    background-image: url(imagenes/Mujer/bille18A.png);
+}
+.bille18A:hover{
+    background-image: url(imagenes/Mujer/bille18B.png);
+}
+.bille19A{
+    background-image: url(imagenes/Mujer/bille19A.png);
+}
+.bille19A:hover{
+    background-image: url(imagenes/Mujer/bille19B.png);
+}
+.bille20A{
+    background-image: url(imagenes/Mujer/bille20A.png);
+}
+.bille20A:hover{
+    background-image: url(imagenes/Mujer/bille20B.png);
+}
+.bille21A{
+    background-image: url(imagenes/Mujer/bille21A.png);
+}
+.bille21A:hover{
+    background-image: url(imagenes/Mujer/bille21B.png);
+}
+.bille22A{
+    background-image: url(imagenes/Mujer/bille22A.png);
+}
+.bille22A:hover{
+    background-image: url(imagenes/Mujer/bille22B.png);
+}
+.bille23A{
+    background-image: url(imagenes/Mujer/bille23A.png);
+}
+.bille23A:hover{
+    background-image: url(imagenes/Mujer/bille23B.png);
+}
+.bille24A{
+    background-image: url(imagenes/Mujer/bille24A.png);
+}
+.bille24A:hover{
+    background-image: url(imagenes/Mujer/bille24B.png);
+}
+.bille25A{
+    background-image: url(imagenes/Mujer/bille25A.png);
+}
+.bille25A:hover{
+    background-image: url(imagenes/Mujer/bille25B.png);
+}
+.bille26A{
+    background-image: url(imagenes/Mujer/bille26A.png);
+}
+.bille26A:hover{
+    background-image: url(imagenes/Mujer/bille26B.png);
+}
+.bille27A{
+    background-image: url(imagenes/Mujer/bille27A.png);
+}
+.bille27A:hover{
+    background-image: url(imagenes/Mujer/bille27B.png);
+}
+.bille28A{
+    background-image: url(imagenes/Mujer/bille28A.png);
+}
+.bille28A:hover{
+    background-image: url(imagenes/Mujer/bille28B.png);
+}
+.bille29{
+    background-image: url(imagenes/Mujer/bille29.png);
+}
+.bille29:hover{
+    background-size: 105% 105%;
+}
+.bille30A{
+    background-image: url(imagenes/Mujer/bille30A.png);
+}
+.bille30A:hover{
+    background-size: 105% 105%;
+}
+.bille31A{
+    background-image: url(imagenes/Mujer/bille31A.png);
+}
+.bille31A:hover{
+    background-size: 105% 105%;
+}
+.bille32A{
+    background-image: url(imagenes/Mujer/bille32A.png);
+}
+.bille32A:hover{
+    background-size: 105% 105%;
+}
+.bille33A{
+    background-image: url(imagenes/Mujer/bille33A.png);
+}
+.bille33A:hover{
+    background-size: 105% 105%;
+}
+.bille34A{
+    background-image: url(imagenes/Mujer/bille34A.png);
+}
+.bille34A:hover{
+    background-image: url(imagenes/Mujer/bille34B.png);
+}
+.bille35A{
+    background-image: url(imagenes/Mujer/bille35A.png);
+}
+.bille35A:hover{
+    background-image: url(imagenes/Mujer/bille35B.png);
+}
+.bille36A{
+    background-image: url(imagenes/Mujer/bille36A.png);
+}
+.bille36A:hover{
+    background-image: url(imagenes/Mujer/bille36B.png);
+}
+.bille37A{
+    background-image: url(imagenes/Mujer/bille37A.png);
+}
+.bille37A:hover{
+    background-image: url(imagenes/Mujer/bille37B.png);
+}
+.bille38A{
+    background-image: url(imagenes/Mujer/bille38A.png);
+}
+.bille38A:hover{
+    background-size: 105% 105%;
+}
+.bille39A{
+    background-image: url(imagenes/Mujer/bille39A.png);
+}
+.bille39A:hover{
+    background-size: 105% 105%;
+}
+.bille40A{
+    background-image: url(imagenes/Mujer/bille40A.png);
+}
+.bille40A:hover{
+    background-size: 105% 105%;
+}
+.bille41A{
+    background-image: url(imagenes/Mujer/bille41A.png);
+}
+.bille41A:hover{
+    background-size: 105% 105%;
+}
+.bille42A{
+    background-image: url(imagenes/Mujer/bille42A.png);
+}
+.bille42A:hover{
+    background-image: url(imagenes/Mujer/bille42B.png);
+}
+.bille43A{
+    background-image: url(imagenes/Mujer/bille43A.png);
+}
+.bille43A:hover{
+    background-image: url(imagenes/Mujer/bille43B.png);
+}
+.bille44A{
+    background-image: url(imagenes/Mujer/bille44A.png);
+}
+.bille44A:hover{
+    background-image: url(imagenes/Mujer/bille44B.png);
+}
+.bille47A{
+    background-image: url(imagenes/Mujer/bille47A.png);
+}
+.bille47A:hover{
+    background-size: 105% 105%;
+}
+.bol01A{
+    background-image: url(imagenes/Mujer/bol01A.png);
+}
+.bol01A:hover{
+    background-size: 105% 105%;
+}
+.bol02A{
+    background-image: url(imagenes/Mujer/bol02A.png);
+}
+.bol02A:hover{
+    background-size: 105% 105%;
+}
+.bol03A{
+    background-image: url(imagenes/Mujer/bol03A.png);
+}
+.bol03A:hover{
+    background-size: 105% 105%;
+}
+.bol04A{
+    background-image: url(imagenes/Mujer/bol04A.png);
+}
+.bol04A:hover{
+    background-image: url(imagenes/Mujer/bol04B.png);
+}
+.bol05A{
+    background-image: url(imagenes/Mujer/bol05A.png);
+}
+.bol05A:hover{
+    background-image: url(imagenes/Mujer/bol05B.png);
+}
+.bol06A{
+    background-image: url(imagenes/Mujer/bol06A.png);
+}
+.bol06A:hover{
+    background-image: url(imagenes/Mujer/bol06B.png);
+}
+.bol07A{
+    background-image: url(imagenes/Mujer/bol07A.png);
+}
+.bol07A:hover{
+    background-image: url(imagenes/Mujer/bol07B.png);
+}
+.bol08A{
+    background-image: url(imagenes/Mujer/bol08A.png);
+}
+.bol08A:hover{
+    background-image: url(imagenes/Mujer/bol08B.png);
+}
+.bol09A{
+    background-image: url(imagenes/Mujer/bol09A.png);
+}
+.bol09A:hover{
+    background-size: 105% 105%;
+}
+.bol10A{
+    background-image: url(imagenes/Mujer/bol10A.png);
+}
+.bol10A:hover{
+    background-size: 105% 105%;
+}
+.bol11A{
+    background-image: url(imagenes/Mujer/bol11A.png);
+}
+.bol11A:hover{
+    background-image: url(imagenes/Mujer/bol11B.png);
+}
+.bol12A{
+    background-image: url(imagenes/Mujer/bol12A.png);
+}
+.bol12A:hover{
+    background-image: url(imagenes/Mujer/bol12B.png);
+}
+.bol13A{
+    background-image: url(imagenes/Mujer/bol13A.png);
+}
+.bol13A:hover{
+    background-image: url(imagenes/Mujer/bol13B.png);
+}
+.bol14A{
+    background-image: url(imagenes/Mujer/bol14A.png);
+}
+.bol14A:hover{
+    background-image: url(imagenes/Mujer/bol14B.png);
+}
+.bol15A{
+    background-image: url(imagenes/Mujer/bol15A.png);
+}
+.bol15A:hover{
+    background-image: url(imagenes/Mujer/bol15B.png);
+}
+.bol16A{
+    background-image: url(imagenes/Mujer/bol16A.png);
+}
+.bol16A:hover{
+    background-size: 105% 105%;
+}
+.cartera01A{
+    background-image: url(imagenes/Mujer/cartera01A.png);
+}
+.cartera01A:hover{
+    background-size: 105% 105%;
+}
+.cartera02A{
+    background-image: url(imagenes/Mujer/cartera02A.png);
+}
+.cartera02A:hover{
+    background-size: 105% 105%;
+}
+.cartera03A{
+    background-image: url(imagenes/Mujer/cartera03A.png);
+}
+.cartera03A:hover{
+    background-size: 105% 105%;
+}
+.cartera04A{
+    background-image: url(imagenes/Mujer/cartera04A.png);
+}
+.cartera04A:hover{
+    background-size: 105% 105%;
+}
+.carterita01A{
+    background-image: url(imagenes/Mujer/carterita01A.png);
+}
+.carterita01A:hover{
+    background-image: url(imagenes/Mujer/carterita01B.png);
+}
+.carterita03A{
+    background-image: url(imagenes/Mujer/carterita03A.png);
+}
+.carterita03A:hover{
+    background-size: 105% 105%;
+}
+.cartgra01A{
+    background-image: url(imagenes/Mujer/cartgra01A.png);
+}
+.cartgra01A:hover{
+    background-size: 105% 105%;
+}
+.cartgra02A{
+    background-image: url(imagenes/Mujer/cartgra02A.png);
+}
+.cartgra02A:hover{
+    background-size: 105% 105%;
+}
+.chavo01A{
+    background-image: url(imagenes/Mujer/chavo01A.png);
+}
+.chavo01A:hover{
+    background-size: 105% 105%;
+}
+.chavo02A{
+    background-image: url(imagenes/Mujer/chavo02A.png);
+}
+.chavo02A:hover{
+    background-size: 105% 105%;
+}
+.chavo03A{
+    background-image: url(imagenes/Mujer/chavo03A.png);
+}
+.chavo03A:hover{
+    background-size: 105% 105%;
+}
+.chavo04A{
+    background-image: url(imagenes/Mujer/chavo04A.png);
+}
+.chavo04A:hover{
+    background-size: 105% 105%;
+}
+.chavo05A{
+    background-image: url(imagenes/Mujer/chavo05A.png);
+}
+.chavo05A:hover{
+    background-size: 105% 105%;
+}
+.chavo06A{
+    background-image: url(imagenes/Mujer/chavo06A.png);
+}
+.chavo06A:hover{
+    background-size: 105% 105%;
+}
+.moch03A{
+    background-image: url(imagenes/Mujer/moch03A.png);
+}
+.moch03A:hover{
+    background-image: url(imagenes/Mujer/moch03B.png);
+}
+.moch11A{
+    background-image: url(imagenes/Mujer/moch11A.png);
+}
+.moch11A:hover{
+    background-image: url(imagenes/Mujer/moch11B.png);
+}
+.moch12A{
+    background-image: url(imagenes/Mujer/moch12A.png);
+}
+.moch12A:hover{
+    background-image: url(imagenes/Mujer/moch12B.png);
+}
+.moch13A{
+    background-image: url(imagenes/Mujer/moch13A.png);
+}
+.moch13A:hover{
+    background-image: url(imagenes/Mujer/moch13B.png);
+}
+.moch16A{
+    background-image: url(imagenes/Mujer/moch16A.png);
+}
+.moch16A:hover{
+    background-image: url(imagenes/Mujer/moch16B.png);
+}
+.mon03A{
+    background-image: url(imagenes/Mujer/mon03A.png);
+}
+.mon03A:hover{
+    background-image: url(imagenes/Mujer/mon03B.png);
+}
+.mon09A{
+    background-image: url(imagenes/Mujer/mon09A.png);
+}
+.mon09A:hover{
+    background-size: 105% 105%;
+}
+.mon12A{
+    background-image: url(imagenes/Mujer/mon12A.png);
+}
+.mon12A:hover{
+    background-size: 105% 105%;
+}
+.playero01A{
+    background-image: url(imagenes/Mujer/playero01A.png);
+}
+.playero01A:hover{
+    background-size: 105% 105%;
+}
+.playero02A{
+    background-image: url(imagenes/Mujer/playero02A.png);
+}
+.playero02A:hover{
+    background-size: 105% 105%;
+}
+.playero03A{
+    background-image: url(imagenes/Mujer/playero03A.png);
+}
+.playero03A:hover{
+    background-size: 105% 105%;
+}
+.playero04A{
+    background-image: url(imagenes/Mujer/playero04A.png);
+}
+.playero04A:hover{
+    background-size: 105% 105%;
+}
+.playero05A{
+    background-image: url(imagenes/Mujer/playero05A.png);
+}
+.playero05A:hover{
+    background-size: 105% 105%;
+}
+.playero06A{
+    background-image: url(imagenes/Mujer/playero06A.png);
+}
+.playero06A:hover{
+    background-size: 105% 105%;
+}
+.reg11A{
+    background-image: url(imagenes/Mujer/reg11A.png);
+}
+.reg11A:hover{
+    background-size: 105% 105%;
+}
+.reg12A{
+    background-image: url(imagenes/Mujer/reg12A.png);
+}
+.reg12A:hover{
+    background-size: 105% 105%;
+}
+.reg17A{
+    background-image: url(imagenes/Mujer/reg17A.png);
+}
+.reg17A:hover{
+    background-size: 105% 105%;
+}
+/*******************footer**************************************/
+.footer{
+    background-color:  #ee9254;
+    line-height: 3;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.footer div{
+    width: 15%;
+    float: left;
+}
+.logopie{
+    width: 80%;
+    height: auto;
+    
+}
+.log{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.social .fab {
+    font-size: 50px;
+    padding-right: 30px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    color: #833a09;
+}
+/********RESPONSIVE**********/
+@media screen and (max-width:1024px){
+    nav .btn-menu{
+        display: block !important;
+        float: left;
+    }
+    nav .enlaces{
+        position: fixed;
+        width: 100%;
+        max-width: 300px;
+        background: #ee9254;
+        top: 70px;
+        left: 0;
+        display: none;
+        padding: 10px 40px;
+        box-sizing: border-box;
+    }
+    .enlaces a{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        font-size: 15px;
+        
+    }
+    .enlaces::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid  #ee9254;
+        position: absolute;
+        top: -10px;
+        left: 50px;
+    }
+    nav .uno{
+        position: absolute;
+        top: 230px;
+    }
+    .enlaces.active{
+        display: block !important;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer h5{
+        width: 90%;
+        text-align: center;
+    }
+    .logopie{
+        width: 200%;
+        position: relative;
+        top: 100px;
+    }
+}

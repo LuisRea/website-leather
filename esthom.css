@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*******************menu********************************************/
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #ee9254;
+    z-index: 100;
+}
+nav{
+    display: table;
+    margin: auto;
+    height: 40px;
+    
+}
+ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+ul li{
+    float:left;
+    margin: 15px;
+    
+}
+ul a{
+    color: #833a09;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul a:hover{
+    background: rgba(210, 105, 30, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+img#logo{
+    width: 130px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+nav .btn-menu{
+    display: none !important;
+    color: #833a09;
+    text-emphasis: none;
+    font-size: 2em;
+}
+/*******************************cuerpo************************************/
+#boddy{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(232, 195, 146);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+#boddy > *{
+    text-decoration: none;
+}
+.titulo{
+    position: absolute;
+    color: #833a09;
+}
+.efecto{
+    position: relative;
+    margin: 50px;
+    width: 520px;
+    height: 340px;
+    background-size: 100% 100%;
+    border: 1px solid rgb(226, 170, 118);
+    box-shadow: -30px 30px 20px rgba(116, 69, 25, 0.3);
+    transition: 1s;
+}
+.nom{
+    padding: 310px 5px;
+    color: #ca6b2c;
+    
+}
+.band01A{
+    background-image: url(imagenes/Hombre/band01A.png);
+}
+.band01A:hover{
+    background-image: url(imagenes/Hombre/band01B.png);
+}
+.band02A{
+    background-image: url(imagenes/Hombre/band02A.png);
+}
+.band02A:hover{
+    background-image: url(imagenes/Hombre/band02B.png);
+}
+.band03A{
+    background-image: url(imagenes/Hombre/band03A.png);
+}
+.band03A:hover{
+    background-image: url(imagenes/Hombre/band03B.png);
+}
+.band04A{
+    background-image: url(imagenes/Hombre/band04A.png);
+}
+.band04A:hover{
+    background-image: url(imagenes/Hombre/band04B.png);
+}
+.band05A{
+    background-image: url(imagenes/Hombre/band05A.png);
+}
+.band05A:hover{
+    background-image: url(imagenes/Hombre/band05B.png);
+}
+.band06A{
+    background-image: url(imagenes/Hombre/band06A.png);
+}
+.band06A:hover{
+    background-image: url(imagenes/Hombre/band06B.png);
+}
+.band07A{
+    background-image: url(imagenes/Hombre/band07A.png);
+}
+.band07A:hover{
+    background-image: url(imagenes/Hombre/band07B.png);
+}
+.band08A{
+    background-image: url(imagenes/Hombre/band08A.png);
+}
+.band08A:hover{
+    background-image: url(imagenes/Hombre/band08B.png);
+}
+.band09A{
+    background-image: url(imagenes/Hombre/band09A.png);
+}
+.band09A:hover{
+    background-size: 105% 105%;
+}
+.band10A{
+    background-image: url(imagenes/Hombre/band10A.png);
+}
+.band10A:hover{
+    background-size: 105% 105%;
+}
+.band11A{
+    background-image: url(imagenes/Hombre/band11A.png);
+}
+.band11A:hover{
+    background-size: 105% 105%;
+}
+.band12A{
+    background-image: url(imagenes/Hombre/band12A.png);
+}
+.band12A:hover{
+    background-image: url(imagenes/Hombre/band12B.png);
+}
+.bille01A{
+    background-image: url(imagenes/Hombre/bille01A.png);
+}
+.bille01A:hover{
+    background-image: url(imagenes/Hombre/bille01B.png);
+}
+.bille02A{
+    background-image: url(imagenes/Hombre/bille02A.png);
+}
+.bille02A:hover{
+    background-image: url(imagenes/Hombre/bille02B.png);
+}
+.bille03A{
+    background-image: url(imagenes/Hombre/bille03A.png);
+}
+.bille03A:hover{
+    background-image: url(imagenes/Hombre/bille03B.png);
+}
+.bille05A{
+    background-image: url(imagenes/Hombre/bille05A.png);
+}
+.bille05A:hover{
+    background-image: url(imagenes/Hombre/bille05B.png);
+}
+.bille06A{
+    background-image: url(imagenes/Hombre/bille06A.png);
+}
+.bille06A:hover{
+    background-image: url(imagenes/Hombre/bille06B.png);
+}
+.bille07A{
+    background-image: url(imagenes/Hombre/bille07A.png);
+}
+.bille07A:hover{
+    background-image: url(imagenes/Hombre/bille07B.png);
+}
+.bille08A{
+    background-image: url(imagenes/Hombre/bille08A.png);
+}
+.bille08A:hover{
+    background-image: url(imagenes/Hombre/bille08B.png);
+}
+.bille09A{
+    background-image: url(imagenes/Hombre/bille09A.png);
+}
+.bille09A:hover{
+    background-image: url(imagenes/Hombre/bille09B.png);
+}
+.bille10A{
+    background-image: url(imagenes/Hombre/bille10A.png);
+}
+.bille10A:hover{
+    background-image: url(imagenes/Hombre/bille10B.png);
+}
+.bille11A{
+    background-image: url(imagenes/Hombre/bille11A.png);
+}
+.bille11A:hover{
+    background-image: url(imagenes/Hombre/bille11B.png);
+}
+.bille12A{
+    background-image: url(imagenes/Hombre/bille12A.png);
+}
+.bille12A:hover{
+    background-image: url(imagenes/Hombre/bille12B.png);
+}
+.bille13A{
+    background-image: url(imagenes/Hombre/bille13A.png);
+}
+.bille13A:hover{
+    background-image: url(imagenes/Hombre/bille13B.png);
+}
+.bille15A{
+    background-image: url(imagenes/Hombre/bille15A.png);
+}
+.bille15A:hover{
+    background-image: url(imagenes/Hombre/bille15B.png);
+}
+.bille16A{
+    background-image: url(imagenes/Hombre/bille16A.png);
+}
+.bille16A:hover{
+    background-image: url(imagenes/Hombre/bille16B.png);
+}
+.bille17A{
+    background-image: url(imagenes/Hombre/bille17A.png);
+}
+.bille17A:hover{
+    background-image: url(imagenes/Hombre/bille17B.png);
+}
+.bille45A{
+    background-image: url(imagenes/Hombre/bille45A.png);
+}
+.bille45A:hover{
+    background-image: url(imagenes/Hombre/bille45B.png);
+}
+.bille46A{
+    background-image: url(imagenes/Hombre/bille46A.png);
+}
+.bille46A:hover{
+    background-image: url(imagenes/Hombre/bille46B.png);
+}
+.cint01A{
+    background-image: url(imagenes/Hombre/cint01A.png);
+}
+.cint01A:hover{
+    background-image: url(imagenes/Hombre/cint01B.png);
+}
+.cint02A{
+    background-image: url(imagenes/Hombre/cint02A.png);
+}
+.cint02A:hover{
+    background-size: 105% 105%;
+}
+.cint03A{
+    background-image: url(imagenes/Hombre/cint03A.png);
+}
+.cint03A:hover{
+    background-size: 105% 105%;
+}
+.cint04A{
+    background-image: url(imagenes/Hombre/cint04A.png);
+}
+.cint04A:hover{
+    background-size: 105% 105%;
+}
+.cint05A{
+    background-image: url(imagenes/Hombre/cint05A.png);
+}
+.cint05A:hover{
+    background-size: 105% 105%;
+}
+.cint06A{
+    background-image: url(imagenes/Hombre/cint06A.png);
+}
+.cint06A:hover{
+    background-size: 105% 105%;
+}
+.cint07A{
+    background-image: url(imagenes/Hombre/cint07A.png);
+}
+.cint07A:hover{
+    background-size: 105% 105%;
+}
+.cint08A{
+    background-image: url(imagenes/Hombre/cint08A.png);
+}
+.cint08A:hover{
+    background-size: 105% 105%;
+}
+.cint09A{
+    background-image: url(imagenes/Hombre/cint09A.png);
+}
+.cint09A:hover{
+    background-size: 105% 105%;
+}
+/*******************footer**************************************/
+.footer{
+    background-color:  #ee9254;
+    line-height: 3;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.footer div{
+    width: 15%;
+    float: left;
+}
+.logopie{
+    width: 80%;
+    height: auto;
+    
+}
+.log{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.social .fab {
+    font-size: 50px;
+    padding-right: 30px;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    color: #833a09;
+}
+/********RESPONSIVE**********/
+@media screen and (max-width:1024px){
+    nav .btn-menu{
+        display: block !important;
+        float: left;
+    }
+    nav .enlaces{
+        position: fixed;
+        width: 100%;
+        max-width: 300px;
+        background: #ee9254;
+        top: 70px;
+        left: 0;
+        display: none;
+        padding: 10px 40px;
+        box-sizing: border-box;
+    }
+    .enlaces a{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        font-size: 15px;
+        
+    }
+    .enlaces::before{
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid  #ee9254;
+        position: absolute;
+        top: -10px;
+        left: 50px;
+    }
+    nav .uno{
+        position: absolute;
+        top: 230px;
+    }
+    .enlaces.active{
+        display: block !important;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer h5{
+        width: 90%;
+        text-align: center;
+    }
+    .logopie{
+        width: 200%;
+        position: relative;
+        top: 100px;
+    }
+}
